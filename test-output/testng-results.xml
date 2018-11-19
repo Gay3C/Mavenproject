@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8248" started-at="2018-11-16T21:15:14Z" finished-at="2018-11-16T21:15:23Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8248" started-at="2018-11-16T21:15:14Z" finished-at="2018-11-16T21:15:23Z">
+      <class name="demo.DataProviderTest2">
+        <test-method status="PASS" signature="VerifyvalidLogin(java.lang.String, java.lang.String)[pri:0, instance:demo.DataProviderTest2@3043fe0e]" name="VerifyvalidLogin" duration-ms="4283" started-at="2018-11-16T21:15:15Z" data-provider="StuLogin1" finished-at="2018-11-16T21:15:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gayathri]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123!!**!!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyvalidLogin -->
+        <test-method status="PASS" signature="VerifyvalidLogin(java.lang.String, java.lang.String)[pri:0, instance:demo.DataProviderTest2@3043fe0e]" name="VerifyvalidLogin" duration-ms="3264" started-at="2018-11-16T21:15:19Z" data-provider="StuLogin1" finished-at="2018-11-16T21:15:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gopinath]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[111&&]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyvalidLogin -->
+      </class> <!-- demo.DataProviderTest2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
